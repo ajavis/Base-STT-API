@@ -1,0 +1,40 @@
+--- Python Specific ---
+pycache/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+venv
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+--- Operating System & Debugging ---
+Windows
+Thumbs.db
+ehthumbs.db
+*.bak
+*.tmp
+*.log
+
+Flask/Temporary Files
+Catches temporary files created by your application
+The API creates files like '..._conv.wav' and temporary '.tmp' files.
+*.tmp
+*_conv.wav
+temp
+
+--- IDEs & Editors ---
+.vscode/
+.idea/
+
+--- Dependencies & Builds ---
+dist/
+build/
+*.egg-info/
+
+--- Hugging Face Caching ---
+Caches for transformer models (can be very large)
+huggingface/
+.cache/

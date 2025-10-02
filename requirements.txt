@@ -1,0 +1,6 @@
+Flask
+Flask-Cors
+numpy
+librosa
+torch
+transformers
