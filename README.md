@@ -33,6 +33,8 @@ TO CLONE
 
 git clone https://github.com/ajavis/Base-STT-API.git
 
+Run application using application.py
+
 API will start at  http://localhost:5000.
 
 
