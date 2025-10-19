@@ -15,7 +15,7 @@ import traceback
 # Swap this later for a Dharug-fine-tuned checkpoint without changing code.
 MODEL_NAME = os.environ.get(
     "MODEL_NAME",
-    "jonatasgrosman/wav2vec2-large-xlsr-53-english"
+    "jonatasgrosman/wav2vec2-large-xlsr-53-spanish"
 )
 
 # Maximum seconds to decode (prevents huge files from blocking the API)
